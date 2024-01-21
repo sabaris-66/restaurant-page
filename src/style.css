@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("./pet-background.png");
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navigation{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2vw;
+    align-items: center;
+}
+
+button{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    flex: 1;
+    font-size: larger;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity: 0.6;
+    border-radius: 25px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.welcome{
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    opacity: 0.7;
+    padding: 15px;
+    border: 5px solid white;
+    border-radius: 25px;
+    background-color: white;
+    text-align: center;
+}
+
+.title{
+    font-size: xx-large;
+    font-weight: bolder;
+    /* flex: 1; */
+}
+
+#content{
+    height: 80%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    color: black;
+    padding: 20px;
+} */
+
+.home,
+.workers,
+.contact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    justify-self: center;
+    background-color: gainsboro;
+    opacity: 0.9;
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+    padding: 15px;
+}
+
+.nav:hover,
+.home:hover,
+.workers:hover,
+.contact:hover{
+    background-color: gray;
+    color: white;
+}
+
+.nav:focus{
+    background-color: gray;
+    color: white;
+}
+
+.contact{
+    justify-content: center;
+    gap: 10px;
+}
+
+.gif{
+    height: 60%;
+    width: auto;
+    border-radius: 30px;
+}
+
+.workers{
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap:15px;
+}
+
+.icons{
+    width: 100%;
+    height: auto;
+    border-radius: 30%;
+}
